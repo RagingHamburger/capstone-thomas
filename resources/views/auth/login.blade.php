@@ -66,7 +66,7 @@
         <div class="text-center bounce-in">
             <!-- Logo -->
             <div class="mb-8">
-                <img src="{{ asset('images/pcclogo.png') }}" alt="PCC Logo" class="w-32 h-32 mx-auto logo-glow">
+                <img src="{{ asset('images/pcclogo.png') }}" alt="PCC Logo" class="w-72 h-72 mx-auto logo-glow">
             </div>
             
             <!-- Institution Name -->
@@ -76,7 +76,8 @@
             
             <!-- System Title -->
             <h2 class="text-white text-xl mb-8 opacity-90">
-                Venue Reservation System
+                PCC Campus Connect : 
+                <br>A Digital Platform for Seamless Institutional School Activity Scheduling and Monitoring
             </h2>
             
             <!-- Welcome Message -->

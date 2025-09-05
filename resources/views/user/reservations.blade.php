@@ -168,7 +168,7 @@
                         </button>
                         <button type="button" onclick="submitActivityGrid()"
                                 class="px-6 py-3 bg-maroon text-white rounded-lg hover:from-red-700 hover:to-maroon transition-all duration-300 shadow-md flex items-center">
-                            <i class="fas fa-arrow-right mr-2"></i> Next: Reservation Details
+                            <i class="fas fa-arrow-right mr-2"></i> Next for Reservation Details
                         </button>
                     </div>
                 </form>
@@ -240,15 +240,15 @@
                                 <select id="department" name="department" required onchange="toggleOtherDepartment()"
                                         class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-maroon focus:border-maroon transition-colors">
                                     <option value="">Select Department</option>
-                                    <option value="ECE">ECE</option>
-                                    <option value="JHS">JHS</option>
-                                    <option value="SHS">SHS</option>
-                                    <option value="BSIT">BSIT</option>
-                                    <option value="BSENT">BSENT</option>
-                                    <option value="BSP">BSP</option>
-                                    <option value="BSBA">BSBA</option>
-                                    <option value="BSA">BSA</option>
-                                    <option value="TED">TED</option>
+                                    <option value="ECE">ECE (Early Childhood Education)</option>
+                                    <option value="JHS">JHS (Junior High School)</option>
+                                    <option value="SHS">SHS (Senior High School)</option>
+                                    <option value="BSIT">BSIT (Bachelor of Science in Information Technology)</option>
+                                    <option value="BSENT">BSENT (Bachelor of Science in Entrepreneurship)</option>
+                                    <option value="BSP">BSP (Bachelor of Science in Psychology)</option>
+                                    <option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
+                                    <option value="BSA">BSA (Bachelor of Science in Accountancy)</option>
+                                    <option value="TED">TED (Teacher Education)</option>
                                     <option value="Other">Other</option>
                                 </select>
                                 
@@ -372,7 +372,7 @@
                     <div class="flex items-center justify-end space-x-3 pt-6 mt-6 border-t border-gray-200">
                         <button type="button" onclick="goBackToStep1()"
                                 class="px-6 py-3 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors flex items-center">
-                            <i class="fas fa-arrow-left mr-2"></i> Back to Step 1
+                            <i class="fas fa-arrow-left mr-2"></i> Back
                         </button>
                         <button type="submit"
                                 class="px-6 py-3 bg-maroon text-white rounded-lg hover:from-red-700 hover:to-maroon transition-all duration-300 shadow-md flex items-center">

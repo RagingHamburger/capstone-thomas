@@ -90,15 +90,15 @@
                         <select id="department" name="department" required onchange="toggleOtherDepartment()"
                                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-maroon focus:border-maroon transition-colors">
                             <option value="">Select Department</option>
-                            <option value="ECE" {{ (old('department', $reservation->department) == 'ECE') ? 'selected' : '' }}>ECE</option>
-                            <option value="JHS" {{ (old('department', $reservation->department) == 'JHS') ? 'selected' : '' }}>JHS</option>
-                            <option value="SHS" {{ (old('department', $reservation->department) == 'SHS') ? 'selected' : '' }}>SHS</option>
-                            <option value="BSIT" {{ (old('department', $reservation->department) == 'BSIT') ? 'selected' : '' }}>BSIT</option>
-                            <option value="BSENT" {{ (old('department', $reservation->department) == 'BSENT') ? 'selected' : '' }}>BSENT</option>
-                            <option value="BSP" {{ (old('department', $reservation->department) == 'BSP') ? 'selected' : '' }}>BSP</option>
-                            <option value="BSBA" {{ (old('department', $reservation->department) == 'BSBA') ? 'selected' : '' }}>BSBA</option>
-                            <option value="BSA" {{ (old('department', $reservation->department) == 'BSA') ? 'selected' : '' }}>BSA</option>
-                            <option value="TED" {{ (old('department', $reservation->department) == 'TED') ? 'selected' : '' }}>TED</option>
+                            <option value="ECE" {{ (old('department', $reservation->department) == 'ECE') ? 'selected' : '' }}>ECE (Early Childhood Education)</option>
+                            <option value="JHS" {{ (old('department', $reservation->department) == 'JHS') ? 'selected' : '' }}>JHS (Junior High School)</option>
+                            <option value="SHS" {{ (old('department', $reservation->department) == 'SHS') ? 'selected' : '' }}>SHS (Senior High School)</option>
+                            <option value="BSIT" {{ (old('department', $reservation->department) == 'BSIT') ? 'selected' : '' }}>BSIT (Bachelor of Science in Information Technology)</option>
+                            <option value="BSENT" {{ (old('department', $reservation->department) == 'BSENT') ? 'selected' : '' }}>BSENT (Bachelor of Science in Entrepreneurship)</option>
+                            <option value="BSP" {{ (old('department', $reservation->department) == 'BSP') ? 'selected' : '' }}>BSP (Bachelor of Science in Psychology)</option>
+                            <option value="BSBA" {{ (old('department', $reservation->department) == 'BSBA') ? 'selected' : '' }}>BSBA (Bachelor of Science in Business Administration)</option>
+                            <option value="BSA" {{ (old('department', $reservation->department) == 'BSA') ? 'selected' : '' }}>BSA (Bachelor of Science in Accountancy)</option>
+                            <option value="TED" {{ (old('department', $reservation->department) == 'TED') ? 'selected' : '' }}>TED (Teacher Education)</option>
                             <option value="Other" {{ (old('department', $reservation->department) == 'Other' || !in_array($reservation->department, ['ECE', 'JHS', 'SHS', 'BSIT', 'BSENT', 'BSP', 'BSBA', 'BSA', 'TED'])) ? 'selected' : '' }}>Other</option>
                         </select>
                         
